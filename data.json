@@ -1,0 +1,341 @@
+{
+  "app": {
+    "name": "Compass",
+    "tagline": "Your Sheffield Career Planning Guide",
+    "defaultBubble": " Hi there! I'm <strong>Compass</strong>, your Sheffield career planning guide. I'm here to help you explore who you are, what's out there, and how to find your direction. What are you working on today?",
+    "footer": "Careers & Employability Service"
+  },
+  "stages": [
+    {
+      "id": "self",
+      "emoji": "🪞",
+      "label": "What do I know about myself?",
+      "bubble": "Great place to start  Understanding yourself is the foundation of good career decisions. Let's look at your values, strengths, skills, and interests.",
+      "topics": [
+        {
+          "id": "values",
+          "label": "My values and personality",
+          "stageNum": "Stage 1 · Self-discovery",
+          "title": "What do I know about myself?",
+          "desc": "Understanding your values and personality is where career planning begins — not with job titles, but with who you are.",
+          "squig": "💡 There's no right answer here. The goal is insight, not certainty. Most people discover their values more clearly through experience than through reflection alone.",
+          "reflects": [
+            "What matters most to you in a working life — people, creativity, impact, structure, flexibility?",
+            "When have you felt most like yourself? What were you doing?",
+            "What would you find genuinely difficult to tolerate in a job, day-to-day?"
+          ],
+          "resources": [
+            { "icon": "🎯", "name": "Prospects Job Match", "desc": "Answer questions to match your personality to real job roles", "url": "https://www.prospects.ac.uk/planner" },
+            { "icon": "❤️", "name": "Who You Are", "desc": "Guided self-assessment: values, interests, personality", "url": "https://sheffield.ac.uk/careers/support/graduate-careers/how-choose-career#Who%20you%20are" },
+            { "icon": "📝", "name": "Reflective CV + mySkills", "desc": "Connect your experiences to skills with mySkills", "url": "#" },
+            { "icon": "🪞", "name": "Sheffield Strengths", "desc": "Discover and articulate your top strengths", "url": "#" }
+          ],
+          "myths": [
+            {
+              "chip": "\"I should know what I want to do by now\"",
+              "bust": "Most people don't — and that's completely normal. Research shows most graduates end up in roles they hadn't planned. Exploring is the work, not a sign you're behind."
+            },
+            {
+              "chip": "\"I don't have any real skills yet\"",
+              "bust": "You have more than you think. Part-time work, sports, societies, caring responsibilities, creative projects — these all develop transferable skills employers value."
+            }
+          ]
+        },
+        {
+          "id": "skills",
+          "label": "My skills and strengths",
+          "stageNum": "Stage 1 · Self-discovery",
+          "title": "My skills and strengths",
+          "desc": "Skills are often invisible to us — we underestimate what we've built. This section helps you name them clearly.",
+          "squig": "🌱 Skills you've developed outside your degree — in jobs, volunteering, or life — are just as valid to employers. Don't filter them out.",
+          "reflects": [
+            "What do people come to you for help with? What do you get complimented on?",
+            "Which of your experiences stretched you the most? What did you learn?",
+            "What skills do you most want to develop in the next few years?"
+          ],
+          "resources": [
+            { "icon": "📊", "name": "mySkills", "desc": "Map your experiences to skills and generate evidence statements", "url": "#" },
+            { "icon": "📝", "name": "Reflective CV", "desc": "A CV format designed to surface skills, not just list jobs", "url": "#" },
+            { "icon": "🔍", "name": "Skills Audit", "desc": "Identify gaps and priorities for your development", "url": "#" },
+            { "icon": "🤝", "name": "Book an Appointment", "desc": "Talk through your skills profile with a careers adviser", "url": "#" }
+          ],
+          "myths": [
+            {
+              "chip": "\"Employers only care about grades\"",
+              "bust": "Grade requirements vary hugely — many roles don't have them at all. Skills, attitude, resilience, and experience consistently outrank degree classification in employer surveys."
+            },
+            {
+              "chip": "\"I need more experience before applying\"",
+              "bust": "Entry-level roles expect you to be entry-level. Apply with what you have and be honest about what you're learning."
+            }
+          ]
+        },
+        {
+          "id": "jobmatch",
+          "label": "Explore job matches",
+          "stageNum": "Stage 1 · Self-discovery",
+          "title": "Explore job matches",
+          "desc": "Sometimes the best way to understand yourself is to see what resonates — and what doesn't. Job matching tools are a starting point, not a verdict.",
+          "squig": "🧩 Treat job match results as prompts for curiosity, not prescriptions. If something surprises you, that's useful information too.",
+          "reflects": [
+            "Which results interest you — even ones you'd never considered before?",
+            "Which results feel completely wrong? What does that tell you about your priorities?",
+            "Is there a pattern across the roles that appeal to you?"
+          ],
+          "resources": [
+            { "icon": "🎯", "name": "Prospects Job Match", "desc": "Personality-based job matching — free, quick, and genuinely useful", "url": "https://www.prospects.ac.uk/planner" },
+            { "icon": "💜", "name": "Career Quiz (Prospects)", "desc": "Explore broad career areas based on your interests", "url": "#" },
+            { "icon": "🌍", "name": "Prospects Job Profiles", "desc": "In-depth guides to hundreds of job roles", "url": "https://www.prospects.ac.uk/job-profiles" },
+            { "icon": "📅", "name": "Book an Appointment", "desc": "Explore what your results mean with a careers adviser", "url": "#" }
+          ],
+          "myths": [
+            {
+              "chip": "\"If a job isn't in my results, it's not for me\"",
+              "bust": "Job matching tools are a starting point, not a ceiling. Many people build fulfilling careers in areas their quiz never suggested."
+            }
+          ]
+        },
+        {
+          "id": "squiggly",
+          "label": "Squiggly careers",
+          "stageNum": "Stage 1 · Self-discovery",
+          "title": "Squiggly careers",
+          "desc": "The idea that you choose a career at 21 and follow it in a straight line is a myth. Most careers are squiggly — and that's actually a superpower.",
+          "squig": "↗️ A squiggly career means changing direction, trying things, and bringing unexpected combinations of experience together. Employers increasingly value this.",
+          "reflects": [
+            "Can you think of someone whose career path you admire, even though it wasn't straight?",
+            "What would you try if you knew it was okay to change direction later?",
+            "What does a successful career look like to you — really?"
+          ],
+          "resources": [
+            { "icon": "🐍", "name": "Squiggly Careers", "desc": "The book and community redefining what career success looks like", "url": "https://www.squigglycareers.com" },
+            { "icon": "📊", "name": "Graduate Outcomes", "desc": "See the actual squiggly paths Sheffield graduates have taken", "url": "#" },
+            { "icon": "💼", "name": "LinkedIn Alumni", "desc": "Real career journeys from Sheffield graduates — rarely linear", "url": "https://www.linkedin.com/school/university-of-sheffield/people/" },
+            { "icon": "🎙️", "name": "Careers Podcast", "desc": "Squiggly career stories from people across every sector", "url": "#" }
+          ],
+          "myths": [
+            {
+              "chip": "\"Changing direction means starting over\"",
+              "bust": "Everything you've done comes with you. Skills, relationships, and experience transfer — often in ways you can't predict until you're there."
+            },
+            {
+              "chip": "\"I need a plan before I can do anything\"",
+              "bust": "Action creates clarity more reliably than planning does. Sometimes you need to try something to know whether you want more of it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jobs",
+      "emoji": "💼",
+      "label": "What do I know about jobs?",
+      "bubble": "Good thinking  Understanding the world of work — what roles exist, what's really involved, and what graduates actually do — changes how you see your options.",
+      "topics": [
+        {
+          "id": "outcomes",
+          "label": "What do graduates actually do?",
+          "stageNum": "Stage 2 · Exploring jobs",
+          "title": "What do graduates actually do?",
+          "desc": "Graduate Outcomes data tracks what Sheffield graduates are doing 15 months after finishing their degree. The results often surprise people.",
+          "squig": "📊 Most graduates aren't in the jobs you'd expect from their degree title — and that's the point. Labour market knowledge opens doors you didn't know existed.",
+          "reflects": [
+            "Do you know what graduates from your course actually go on to do? Have you looked?",
+            "Are there paths you've assumed are closed to you that might not be?",
+            "What would it mean for your plans if you knew more people take unexpected routes?"
+          ],
+          "resources": [
+            { "icon": "📈", "name": "Graduate Outcomes", "desc": "Sheffield-specific data on what graduates do 15 months after graduating", "url": "#" },
+            { "icon": "💜", "name": "LinkedIn Alumni", "desc": "Real Sheffield graduates — search by sector, role, or company", "url": "https://www.linkedin.com/school/university-of-sheffield/people/" },
+            { "icon": "🌍", "name": "Prospects", "desc": "Job profiles, sector guides, and typical progression routes", "url": "https://www.prospects.ac.uk" },
+            { "icon": "📅", "name": "Book an Appointment", "desc": "Interpret what the data means for your situation", "url": "#" }
+          ],
+          "myths": [
+            {
+              "chip": "\"My degree determines my career\"",
+              "bust": "The majority of graduate jobs are open to any degree subject. Your degree is one signal among many — what you've done with your time matters just as much."
+            },
+            {
+              "chip": "\"Graduate schemes are the only graduate jobs\"",
+              "bust": "Graduate schemes employ a tiny fraction of graduates. The vast majority of graduate-level work is recruited through direct applications, speculative approaches, and networks."
+            }
+          ]
+        },
+        {
+          "id": "research",
+          "label": "Researching job roles and sectors",
+          "stageNum": "Stage 2 · Exploring jobs",
+          "title": "Researching job roles and sectors",
+          "desc": "Most people pick careers based on limited information. The more you know about what roles actually involve — day-to-day — the better your decisions become.",
+          "squig": "🔍 Read job adverts not to apply, but to learn. Notice what skills and experiences keep appearing across roles you find interesting.",
+          "reflects": [
+            "Have you read job descriptions for roles you're drawn to? What surprised you?",
+            "Which sectors do you know almost nothing about that might be worth exploring?",
+            "What would a good working day look like to you in five years?"
+          ],
+          "resources": [
+            { "icon": "🌍", "name": "Prospects Job Profiles", "desc": "Detailed role guides covering duties, salary, entry routes, and progression", "url": "https://www.prospects.ac.uk/job-profiles" },
+            { "icon": "📊", "name": "Labour Market Info", "desc": "Which sectors are growing, where the opportunities are", "url": "#" },
+            { "icon": "🔗", "name": "LinkedIn", "desc": "Research companies, roles, and people in areas that interest you", "url": "https://www.linkedin.com" },
+            { "icon": "💜", "name": "Sector Guides", "desc": "Careers Service guides to the major industries and sectors", "url": "#" }
+          ],
+          "myths": [
+            {
+              "chip": "\"I need to pick one sector\"",
+              "bust": "Many skills transfer across sectors. Exploring two or three areas in parallel is a strategy, not indecision."
+            }
+          ]
+        },
+        {
+          "id": "employers",
+          "label": "What employers really want",
+          "stageNum": "Stage 2 · Exploring jobs",
+          "title": "What employers really want",
+          "desc": "There's a gap between what students think employers want and what they actually look for. Understanding this changes how you present yourself.",
+          "squig": "💡 Employers consistently say attitude, curiosity, and communication matter more than technical knowledge — especially at entry level.",
+          "reflects": [
+            "What do you think employers in your area of interest are looking for? Have you checked?",
+            "Where in your experience can you evidence curiosity, resilience, or collaboration?",
+            "What do you know about the culture of organisations you're interested in?"
+          ],
+          "resources": [
+            { "icon": "📋", "name": "Graduate Attributes", "desc": "What Sheffield graduates are known for — and how to evidence them", "url": "#" },
+            { "icon": "🔍", "name": "Company Research", "desc": "How to go beyond the website and understand what an employer is really like", "url": "#" },
+            { "icon": "💬", "name": "Career Mentoring", "desc": "Talk to professionals in your target area about what they look for", "url": "#" },
+            { "icon": "📅", "name": "Book an Appointment", "desc": "Get a read on how you're coming across to employers", "url": "#" }
+          ],
+          "myths": [
+            {
+              "chip": "\"I need a 2:1 to get a good job\"",
+              "bust": "Many employers have removed grade requirements entirely. Where they exist, a strong application and evidence of skills can outweigh a grade boundary."
+            },
+            {
+              "chip": "\"I'm not the type they're looking for\"",
+              "bust": "Employers are actively trying to hire from diverse backgrounds. Your perspective, experience, and identity are things many employers are specifically seeking."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "explore",
+      "emoji": "🧭",
+      "label": "How can I find what's right for me?",
+      "bubble": "This is where it gets real  The best way to find out what's right for you is to talk to people, try things, and test your thinking against reality.",
+      "topics": [
+        {
+          "id": "people",
+          "label": "Talk to people in real jobs",
+          "stageNum": "Stage 3 · Finding your direction",
+          "title": "Talk to people in real jobs",
+          "desc": "Information interviews — short conversations with people doing work you're curious about — are one of the most effective and underused career tools there is.",
+          "squig": "🗣️ Most professionals are happy to give 20 minutes to a student who asks thoughtfully. The worst they can say is no — and most don't.",
+          "reflects": [
+            "Is there someone doing work you find interesting who you could reach out to this week?",
+            "What would you want to know about a job that you can't find on a website?",
+            "Who in your existing network works in areas you've never thought to ask about?"
+          ],
+          "resources": [
+            { "icon": "💼", "name": "LinkedIn Alumni", "desc": "Find Sheffield graduates to reach out to for informational conversations", "url": "https://www.linkedin.com/school/university-of-sheffield/people/" },
+            { "icon": "🤝", "name": "Career Mentoring", "desc": "Be matched with a professional in a sector you want to explore", "url": "#" },
+            { "icon": "👁️", "name": "Work Shadowing", "desc": "See a role in action — even a day can transform how you see a career", "url": "#" },
+            { "icon": "🎙️", "name": "Careers Events", "desc": "Meet employers, alumni, and professionals at Sheffield events", "url": "#" }
+          ],
+          "myths": [
+            {
+              "chip": "\"Cold messaging people is weird\"",
+              "bust": "A brief, genuine, well-researched message asking for a short conversation is almost universally welcomed. People remember asking for help early in their careers — they want to pay it forward."
+            },
+            {
+              "chip": "\"I don't have a network\"",
+              "bust": "Everyone starts with the same network: zero. LinkedIn alumni tools, careers events, and mentoring schemes exist precisely to give you a starting point."
+            }
+          ]
+        },
+        {
+          "id": "try",
+          "label": "Try before you decide",
+          "stageNum": "Stage 3 · Finding your direction",
+          "title": "Try before you decide",
+          "desc": "You don't have to be certain before you take action. Work experience, short placements, and volunteering are ways of testing a direction before committing to it.",
+          "squig": "🌱 Action creates clarity. Trying something and finding it's not for you is not a failure — it's data that makes your next decision better.",
+          "reflects": [
+            "What experience would help you feel more confident about a direction?",
+            "Are there low-stakes ways to test an interest — volunteering, student projects, online courses?",
+            "What have you already done that's given you a feel for what kind of work suits you?"
+          ],
+          "resources": [
+            { "icon": "👁️", "name": "Work Shadowing", "desc": "Short placements arranged through the Careers Service", "url": "#" },
+            { "icon": "🔬", "name": "Placements & Internships", "desc": "Longer work experience opportunities within and outside your course", "url": "#" },
+            { "icon": "🙋", "name": "Volunteering", "desc": "Build skills and test interests through structured volunteering", "url": "#" },
+            { "icon": "💻", "name": "Sheffield Internships", "desc": "Paid internships with Sheffield-based employers", "url": "#" }
+          ],
+          "myths": [
+            {
+              "chip": "\"Unpaid experience is the only option\"",
+              "bust": "The Careers Service offers funded internships, bursaries for unpaid work, and paid part-time opportunities. Ask before assuming you can't afford to get experience."
+            }
+          ]
+        },
+        {
+          "id": "ikigai",
+          "label": "Finding your ikigai",
+          "stageNum": "Stage 3 · Finding your direction",
+          "title": "Finding your ikigai",
+          "desc": "Ikigai is a Japanese concept for the place where what you love, what you're good at, what the world needs, and what you can be paid for all overlap. It's a useful lens, not a formula.",
+          "squig": "🔮 Most people find their ikigai through years of living, not a single exercise. Use it as a prompt for reflection, not a destination to reach.",
+          "reflects": [
+            "What do you do where time seems to disappear? What are you doing?",
+            "What problems in the world do you find yourself genuinely caring about?",
+            "Where do your skills and your values overlap — even partially?"
+          ],
+          "resources": [
+            { "icon": "⭕", "name": "Ikigai Framework", "desc": "A visual tool for exploring the four circles and their overlaps", "url": "https://www.ruthkrichards.co.uk/post/ikagi" },
+            { "icon": "🪞", "name": "Values Reflection", "desc": "Clarify what matters most to you as a starting point", "url": "#" },
+            { "icon": "🌍", "name": "Ruthkrichards.co.uk", "desc": "Practical Ikigai guidance for career decision-making", "url": "https://www.ruthkrichards.co.uk/post/ikagi" },
+            { "icon": "📅", "name": "Book an Appointment", "desc": "Work through your ikigai with a careers adviser", "url": "#" }
+          ],
+          "myths": [
+            {
+              "chip": "\"I need to find my passion before I start\"",
+              "bust": "Passion often follows mastery, not the other way around. Many people find deep satisfaction in work they grew into, not work they felt certain about from day one."
+            },
+            {
+              "chip": "\"There's one perfect career out there for me\"",
+              "bust": "There are likely many careers that could suit you well. The goal isn't to find the one right answer — it's to make a good enough decision and keep learning."
+            }
+          ]
+        },
+        {
+          "id": "support",
+          "label": "Book careers support",
+          "stageNum": "Stage 3 · Finding your direction",
+          "title": "Book careers support",
+          "desc": "The Careers & Employability Service offers one-to-one support for any question at any stage — from 'I have no idea what to do' to 'I have an interview next week'.",
+          "squig": "📅 You can access careers support for up to 5 years after graduating. There is no deadline for getting help — and no question is too basic.",
+          "reflects": [
+            "What's the one thing you most want clarity on right now?",
+            "What's been stopping you from getting careers support sooner?",
+            "What would feel different if you had a clearer sense of direction?"
+          ],
+          "resources": [
+            { "icon": "📅", "name": "Book an Appointment", "desc": "One-to-one appointments with a careers adviser — online or in person", "url": "#" },
+            { "icon": "💬", "name": "Drop-in Sessions", "desc": "Quick questions answered without an appointment", "url": "#" },
+            { "icon": "🤝", "name": "Career Mentoring", "desc": "Be matched with a professional mentor in your area of interest", "url": "#" },
+            { "icon": "📧", "name": "Email the Careers Service", "desc": "careers@sheffield.ac.uk — we're here to help", "url": "mailto:careers@sheffield.ac.uk" }
+          ],
+          "myths": [
+            {
+              "chip": "\"Careers appointments are only for people who know what they want\"",
+              "bust": "The most common reason people come is 'I have no idea what I want to do.' That's not just okay — it's where careers advisers are most useful."
+            },
+            {
+              "chip": "\"I've left it too late\"",
+              "bust": "Sheffield graduates can access full careers support for 5 years after graduating. You haven't missed the window."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
