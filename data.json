@@ -2,7 +2,7 @@
   "app": {
     "name": "Compass",
     "tagline": "Your Sheffield Career Planning Guide",
-    "defaultBubble": " Hi there! I'm <strong>Compass</strong>, your Sheffield career planning guide. I'm here to help you explore who you are, what's out there, and how to find your direction. What are you working on today?",
+    "defaultBubble": "Hi there! I'm <strong>Compass</strong>, your Sheffield career planning guide. I'm here to help you explore who you are, what's out there, and how to find your direction. What are you working on today?",
     "footer": "Careers & Employability Service"
   },
   "stages": [
@@ -10,7 +10,7 @@
       "id": "self",
       "emoji": "🪞",
       "label": "What do I know about myself?",
-      "bubble": "Great place to start  Understanding yourself is the foundation of good career decisions. Let's look at your values, strengths, skills, and interests.",
+      "bubble": "Great place to start Understanding yourself is the foundation of good career decisions. Let's look at your values, strengths, skills, and interests.",
       "topics": [
         {
           "id": "values",
@@ -130,7 +130,7 @@
       "id": "jobs",
       "emoji": "💼",
       "label": "What do I know about jobs?",
-      "bubble": "Good thinking  Understanding the world of work — what roles exist, what's really involved, and what graduates actually do — changes how you see your options.",
+      "bubble": "Good thinking Understanding the world of work — what roles exist, what's really involved, and what graduates actually do — changes how you see your options.",
       "topics": [
         {
           "id": "outcomes",
@@ -221,7 +221,7 @@
       "id": "explore",
       "emoji": "🧭",
       "label": "How can I find what's right for me?",
-      "bubble": "This is where it gets real  The best way to find out what's right for you is to talk to people, try things, and test your thinking against reality.",
+      "bubble": "This is where it gets real The best way to find out what's right for you is to talk to people, try things, and test your thinking against reality.",
       "topics": [
         {
           "id": "people",
