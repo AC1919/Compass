@@ -1,341 +1,704 @@
-{
-  "app": {
-    "name": "Compass",
-    "tagline": "Your Sheffield Career Planning Guide",
-    "defaultBubble": "Hi there! I'm <strong>Compass</strong>, your Sheffield career planning guide. I'm here to help you explore who you are, what's out there, and how to find your direction. What are you working on today?",
-    "footer": "Careers & Employability Service"
-  },
-  "stages": [
-    {
-      "id": "self",
-      "emoji": "🪞",
-      "label": "What do I know about myself?",
-      "bubble": "Great place to start Understanding yourself is the foundation of good career decisions. Let's look at your values, strengths, skills, and interests.",
-      "topics": [
-        {
-          "id": "values",
-          "label": "My values and personality",
-          "stageNum": "Stage 1 · Self-discovery",
-          "title": "What do I know about myself?",
-          "desc": "Understanding your values and personality is where career planning begins — not with job titles, but with who you are.",
-          "squig": "💡 There's no right answer here. The goal is insight, not certainty. Most people discover their values more clearly through experience than through reflection alone.",
-          "reflects": [
-            "What matters most to you in a working life — people, creativity, impact, structure, flexibility?",
-            "When have you felt most like yourself? What were you doing?",
-            "What would you find genuinely difficult to tolerate in a job, day-to-day?"
-          ],
-          "resources": [
-            { "icon": "🎯", "name": "Prospects Job Match", "desc": "Answer questions to match your personality to real job roles", "url": "https://www.prospects.ac.uk/planner" },
-            { "icon": "❤️", "name": "Who You Are", "desc": "Guided self-assessment: values, interests, personality", "url": "https://sheffield.ac.uk/careers/support/graduate-careers/how-choose-career#Who%20you%20are" },
-            { "icon": "📝", "name": "Reflective CV + mySkills", "desc": "Connect your experiences to skills with mySkills", "url": "#" },
-            { "icon": "🪞", "name": "Sheffield Strengths", "desc": "Discover and articulate your top strengths", "url": "#" }
-          ],
-          "myths": [
-            {
-              "chip": "\"I should know what I want to do by now\"",
-              "bust": "Most people don't — and that's completely normal. Research shows most graduates end up in roles they hadn't planned. Exploring is the work, not a sign you're behind."
-            },
-            {
-              "chip": "\"I don't have any real skills yet\"",
-              "bust": "You have more than you think. Part-time work, sports, societies, caring responsibilities, creative projects — these all develop transferable skills employers value."
-            }
-          ]
-        },
-        {
-          "id": "skills",
-          "label": "My skills and strengths",
-          "stageNum": "Stage 1 · Self-discovery",
-          "title": "My skills and strengths",
-          "desc": "Skills are often invisible to us — we underestimate what we've built. This section helps you name them clearly.",
-          "squig": "🌱 Skills you've developed outside your degree — in jobs, volunteering, or life — are just as valid to employers. Don't filter them out.",
-          "reflects": [
-            "What do people come to you for help with? What do you get complimented on?",
-            "Which of your experiences stretched you the most? What did you learn?",
-            "What skills do you most want to develop in the next few years?"
-          ],
-          "resources": [
-            { "icon": "📊", "name": "mySkills", "desc": "Map your experiences to skills and generate evidence statements", "url": "#" },
-            { "icon": "📝", "name": "Reflective CV", "desc": "A CV format designed to surface skills, not just list jobs", "url": "#" },
-            { "icon": "🔍", "name": "Skills Audit", "desc": "Identify gaps and priorities for your development", "url": "#" },
-            { "icon": "🤝", "name": "Book an Appointment", "desc": "Talk through your skills profile with a careers adviser", "url": "#" }
-          ],
-          "myths": [
-            {
-              "chip": "\"Employers only care about grades\"",
-              "bust": "Grade requirements vary hugely — many roles don't have them at all. Skills, attitude, resilience, and experience consistently outrank degree classification in employer surveys."
-            },
-            {
-              "chip": "\"I need more experience before applying\"",
-              "bust": "Entry-level roles expect you to be entry-level. Apply with what you have and be honest about what you're learning."
-            }
-          ]
-        },
-        {
-          "id": "jobmatch",
-          "label": "Explore job matches",
-          "stageNum": "Stage 1 · Self-discovery",
-          "title": "Explore job matches",
-          "desc": "Sometimes the best way to understand yourself is to see what resonates — and what doesn't. Job matching tools are a starting point, not a verdict.",
-          "squig": "🧩 Treat job match results as prompts for curiosity, not prescriptions. If something surprises you, that's useful information too.",
-          "reflects": [
-            "Which results interest you — even ones you'd never considered before?",
-            "Which results feel completely wrong? What does that tell you about your priorities?",
-            "Is there a pattern across the roles that appeal to you?"
-          ],
-          "resources": [
-            { "icon": "🎯", "name": "Prospects Job Match", "desc": "Personality-based job matching — free, quick, and genuinely useful", "url": "https://www.prospects.ac.uk/planner" },
-            { "icon": "💜", "name": "Career Quiz (Prospects)", "desc": "Explore broad career areas based on your interests", "url": "#" },
-            { "icon": "🌍", "name": "Prospects Job Profiles", "desc": "In-depth guides to hundreds of job roles", "url": "https://www.prospects.ac.uk/job-profiles" },
-            { "icon": "📅", "name": "Book an Appointment", "desc": "Explore what your results mean with a careers adviser", "url": "#" }
-          ],
-          "myths": [
-            {
-              "chip": "\"If a job isn't in my results, it's not for me\"",
-              "bust": "Job matching tools are a starting point, not a ceiling. Many people build fulfilling careers in areas their quiz never suggested."
-            }
-          ]
-        },
-        {
-          "id": "squiggly",
-          "label": "Squiggly careers",
-          "stageNum": "Stage 1 · Self-discovery",
-          "title": "Squiggly careers",
-          "desc": "The idea that you choose a career at 21 and follow it in a straight line is a myth. Most careers are squiggly — and that's actually a superpower.",
-          "squig": "↗️ A squiggly career means changing direction, trying things, and bringing unexpected combinations of experience together. Employers increasingly value this.",
-          "reflects": [
-            "Can you think of someone whose career path you admire, even though it wasn't straight?",
-            "What would you try if you knew it was okay to change direction later?",
-            "What does a successful career look like to you — really?"
-          ],
-          "resources": [
-            { "icon": "🐍", "name": "Squiggly Careers", "desc": "The book and community redefining what career success looks like", "url": "https://www.squigglycareers.com" },
-            { "icon": "📊", "name": "Graduate Outcomes", "desc": "See the actual squiggly paths Sheffield graduates have taken", "url": "#" },
-            { "icon": "💼", "name": "LinkedIn Alumni", "desc": "Real career journeys from Sheffield graduates — rarely linear", "url": "https://www.linkedin.com/school/university-of-sheffield/people/" },
-            { "icon": "🎙️", "name": "Careers Podcast", "desc": "Squiggly career stories from people across every sector", "url": "#" }
-          ],
-          "myths": [
-            {
-              "chip": "\"Changing direction means starting over\"",
-              "bust": "Everything you've done comes with you. Skills, relationships, and experience transfer — often in ways you can't predict until you're there."
-            },
-            {
-              "chip": "\"I need a plan before I can do anything\"",
-              "bust": "Action creates clarity more reliably than planning does. Sometimes you need to try something to know whether you want more of it."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "jobs",
-      "emoji": "💼",
-      "label": "What do I know about jobs?",
-      "bubble": "Good thinking Understanding the world of work — what roles exist, what's really involved, and what graduates actually do — changes how you see your options.",
-      "topics": [
-        {
-          "id": "outcomes",
-          "label": "What do graduates actually do?",
-          "stageNum": "Stage 2 · Exploring jobs",
-          "title": "What do graduates actually do?",
-          "desc": "Graduate Outcomes data tracks what Sheffield graduates are doing 15 months after finishing their degree. The results often surprise people.",
-          "squig": "📊 Most graduates aren't in the jobs you'd expect from their degree title — and that's the point. Labour market knowledge opens doors you didn't know existed.",
-          "reflects": [
-            "Do you know what graduates from your course actually go on to do? Have you looked?",
-            "Are there paths you've assumed are closed to you that might not be?",
-            "What would it mean for your plans if you knew more people take unexpected routes?"
-          ],
-          "resources": [
-            { "icon": "📈", "name": "Graduate Outcomes", "desc": "Sheffield-specific data on what graduates do 15 months after graduating", "url": "#" },
-            { "icon": "💜", "name": "LinkedIn Alumni", "desc": "Real Sheffield graduates — search by sector, role, or company", "url": "https://www.linkedin.com/school/university-of-sheffield/people/" },
-            { "icon": "🌍", "name": "Prospects", "desc": "Job profiles, sector guides, and typical progression routes", "url": "https://www.prospects.ac.uk" },
-            { "icon": "📅", "name": "Book an Appointment", "desc": "Interpret what the data means for your situation", "url": "#" }
-          ],
-          "myths": [
-            {
-              "chip": "\"My degree determines my career\"",
-              "bust": "The majority of graduate jobs are open to any degree subject. Your degree is one signal among many — what you've done with your time matters just as much."
-            },
-            {
-              "chip": "\"Graduate schemes are the only graduate jobs\"",
-              "bust": "Graduate schemes employ a tiny fraction of graduates. The vast majority of graduate-level work is recruited through direct applications, speculative approaches, and networks."
-            }
-          ]
-        },
-        {
-          "id": "research",
-          "label": "Researching job roles and sectors",
-          "stageNum": "Stage 2 · Exploring jobs",
-          "title": "Researching job roles and sectors",
-          "desc": "Most people pick careers based on limited information. The more you know about what roles actually involve — day-to-day — the better your decisions become.",
-          "squig": "🔍 Read job adverts not to apply, but to learn. Notice what skills and experiences keep appearing across roles you find interesting.",
-          "reflects": [
-            "Have you read job descriptions for roles you're drawn to? What surprised you?",
-            "Which sectors do you know almost nothing about that might be worth exploring?",
-            "What would a good working day look like to you in five years?"
-          ],
-          "resources": [
-            { "icon": "🌍", "name": "Prospects Job Profiles", "desc": "Detailed role guides covering duties, salary, entry routes, and progression", "url": "https://www.prospects.ac.uk/job-profiles" },
-            { "icon": "📊", "name": "Labour Market Info", "desc": "Which sectors are growing, where the opportunities are", "url": "#" },
-            { "icon": "🔗", "name": "LinkedIn", "desc": "Research companies, roles, and people in areas that interest you", "url": "https://www.linkedin.com" },
-            { "icon": "💜", "name": "Sector Guides", "desc": "Careers Service guides to the major industries and sectors", "url": "#" }
-          ],
-          "myths": [
-            {
-              "chip": "\"I need to pick one sector\"",
-              "bust": "Many skills transfer across sectors. Exploring two or three areas in parallel is a strategy, not indecision."
-            }
-          ]
-        },
-        {
-          "id": "employers",
-          "label": "What employers really want",
-          "stageNum": "Stage 2 · Exploring jobs",
-          "title": "What employers really want",
-          "desc": "There's a gap between what students think employers want and what they actually look for. Understanding this changes how you present yourself.",
-          "squig": "💡 Employers consistently say attitude, curiosity, and communication matter more than technical knowledge — especially at entry level.",
-          "reflects": [
-            "What do you think employers in your area of interest are looking for? Have you checked?",
-            "Where in your experience can you evidence curiosity, resilience, or collaboration?",
-            "What do you know about the culture of organisations you're interested in?"
-          ],
-          "resources": [
-            { "icon": "📋", "name": "Graduate Attributes", "desc": "What Sheffield graduates are known for — and how to evidence them", "url": "#" },
-            { "icon": "🔍", "name": "Company Research", "desc": "How to go beyond the website and understand what an employer is really like", "url": "#" },
-            { "icon": "💬", "name": "Career Mentoring", "desc": "Talk to professionals in your target area about what they look for", "url": "#" },
-            { "icon": "📅", "name": "Book an Appointment", "desc": "Get a read on how you're coming across to employers", "url": "#" }
-          ],
-          "myths": [
-            {
-              "chip": "\"I need a 2:1 to get a good job\"",
-              "bust": "Many employers have removed grade requirements entirely. Where they exist, a strong application and evidence of skills can outweigh a grade boundary."
-            },
-            {
-              "chip": "\"I'm not the type they're looking for\"",
-              "bust": "Employers are actively trying to hire from diverse backgrounds. Your perspective, experience, and identity are things many employers are specifically seeking."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "explore",
-      "emoji": "🧭",
-      "label": "How can I find what's right for me?",
-      "bubble": "This is where it gets real The best way to find out what's right for you is to talk to people, try things, and test your thinking against reality.",
-      "topics": [
-        {
-          "id": "people",
-          "label": "Talk to people in real jobs",
-          "stageNum": "Stage 3 · Finding your direction",
-          "title": "Talk to people in real jobs",
-          "desc": "Information interviews — short conversations with people doing work you're curious about — are one of the most effective and underused career tools there is.",
-          "squig": "🗣️ Most professionals are happy to give 20 minutes to a student who asks thoughtfully. The worst they can say is no — and most don't.",
-          "reflects": [
-            "Is there someone doing work you find interesting who you could reach out to this week?",
-            "What would you want to know about a job that you can't find on a website?",
-            "Who in your existing network works in areas you've never thought to ask about?"
-          ],
-          "resources": [
-            { "icon": "💼", "name": "LinkedIn Alumni", "desc": "Find Sheffield graduates to reach out to for informational conversations", "url": "https://www.linkedin.com/school/university-of-sheffield/people/" },
-            { "icon": "🤝", "name": "Career Mentoring", "desc": "Be matched with a professional in a sector you want to explore", "url": "#" },
-            { "icon": "👁️", "name": "Work Shadowing", "desc": "See a role in action — even a day can transform how you see a career", "url": "#" },
-            { "icon": "🎙️", "name": "Careers Events", "desc": "Meet employers, alumni, and professionals at Sheffield events", "url": "#" }
-          ],
-          "myths": [
-            {
-              "chip": "\"Cold messaging people is weird\"",
-              "bust": "A brief, genuine, well-researched message asking for a short conversation is almost universally welcomed. People remember asking for help early in their careers — they want to pay it forward."
-            },
-            {
-              "chip": "\"I don't have a network\"",
-              "bust": "Everyone starts with the same network: zero. LinkedIn alumni tools, careers events, and mentoring schemes exist precisely to give you a starting point."
-            }
-          ]
-        },
-        {
-          "id": "try",
-          "label": "Try before you decide",
-          "stageNum": "Stage 3 · Finding your direction",
-          "title": "Try before you decide",
-          "desc": "You don't have to be certain before you take action. Work experience, short placements, and volunteering are ways of testing a direction before committing to it.",
-          "squig": "🌱 Action creates clarity. Trying something and finding it's not for you is not a failure — it's data that makes your next decision better.",
-          "reflects": [
-            "What experience would help you feel more confident about a direction?",
-            "Are there low-stakes ways to test an interest — volunteering, student projects, online courses?",
-            "What have you already done that's given you a feel for what kind of work suits you?"
-          ],
-          "resources": [
-            { "icon": "👁️", "name": "Work Shadowing", "desc": "Short placements arranged through the Careers Service", "url": "#" },
-            { "icon": "🔬", "name": "Placements & Internships", "desc": "Longer work experience opportunities within and outside your course", "url": "#" },
-            { "icon": "🙋", "name": "Volunteering", "desc": "Build skills and test interests through structured volunteering", "url": "#" },
-            { "icon": "💻", "name": "Sheffield Internships", "desc": "Paid internships with Sheffield-based employers", "url": "#" }
-          ],
-          "myths": [
-            {
-              "chip": "\"Unpaid experience is the only option\"",
-              "bust": "The Careers Service offers funded internships, bursaries for unpaid work, and paid part-time opportunities. Ask before assuming you can't afford to get experience."
-            }
-          ]
-        },
-        {
-          "id": "ikigai",
-          "label": "Finding your ikigai",
-          "stageNum": "Stage 3 · Finding your direction",
-          "title": "Finding your ikigai",
-          "desc": "Ikigai is a Japanese concept for the place where what you love, what you're good at, what the world needs, and what you can be paid for all overlap. It's a useful lens, not a formula.",
-          "squig": "🔮 Most people find their ikigai through years of living, not a single exercise. Use it as a prompt for reflection, not a destination to reach.",
-          "reflects": [
-            "What do you do where time seems to disappear? What are you doing?",
-            "What problems in the world do you find yourself genuinely caring about?",
-            "Where do your skills and your values overlap — even partially?"
-          ],
-          "resources": [
-            { "icon": "⭕", "name": "Ikigai Framework", "desc": "A visual tool for exploring the four circles and their overlaps", "url": "https://www.ruthkrichards.co.uk/post/ikagi" },
-            { "icon": "🪞", "name": "Values Reflection", "desc": "Clarify what matters most to you as a starting point", "url": "#" },
-            { "icon": "🌍", "name": "Ruthkrichards.co.uk", "desc": "Practical Ikigai guidance for career decision-making", "url": "https://www.ruthkrichards.co.uk/post/ikagi" },
-            { "icon": "📅", "name": "Book an Appointment", "desc": "Work through your ikigai with a careers adviser", "url": "#" }
-          ],
-          "myths": [
-            {
-              "chip": "\"I need to find my passion before I start\"",
-              "bust": "Passion often follows mastery, not the other way around. Many people find deep satisfaction in work they grew into, not work they felt certain about from day one."
-            },
-            {
-              "chip": "\"There's one perfect career out there for me\"",
-              "bust": "There are likely many careers that could suit you well. The goal isn't to find the one right answer — it's to make a good enough decision and keep learning."
-            }
-          ]
-        },
-        {
-          "id": "support",
-          "label": "Book careers support",
-          "stageNum": "Stage 3 · Finding your direction",
-          "title": "Book careers support",
-          "desc": "The Careers & Employability Service offers one-to-one support for any question at any stage — from 'I have no idea what to do' to 'I have an interview next week'.",
-          "squig": "📅 You can access careers support for up to 5 years after graduating. There is no deadline for getting help — and no question is too basic.",
-          "reflects": [
-            "What's the one thing you most want clarity on right now?",
-            "What's been stopping you from getting careers support sooner?",
-            "What would feel different if you had a clearer sense of direction?"
-          ],
-          "resources": [
-            { "icon": "📅", "name": "Book an Appointment", "desc": "One-to-one appointments with a careers adviser — online or in person", "url": "#" },
-            { "icon": "💬", "name": "Drop-in Sessions", "desc": "Quick questions answered without an appointment", "url": "#" },
-            { "icon": "🤝", "name": "Career Mentoring", "desc": "Be matched with a professional mentor in your area of interest", "url": "#" },
-            { "icon": "📧", "name": "Email the Careers Service", "desc": "careers@sheffield.ac.uk — we're here to help", "url": "mailto:careers@sheffield.ac.uk" }
-          ],
-          "myths": [
-            {
-              "chip": "\"Careers appointments are only for people who know what they want\"",
-              "bust": "The most common reason people come is 'I have no idea what I want to do.' That's not just okay — it's where careers advisers are most useful."
-            },
-            {
-              "chip": "\"I've left it too late\"",
-              "bust": "Sheffield graduates can access full careers support for 5 years after graduating. You haven't missed the window."
-            }
-          ]
-        }
-      ]
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Compass — Sheffield Career Planning Guide</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html, body {
+      height: 100%;
     }
-  ]
+
+    body {
+      background: #0f0a1e;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .wrapper {
+      max-width: 520px;
+      margin: 0 auto;
+      padding: 12px;
+      width: 100%;
+    }
+
+    /* ── HEADER ── */
+    .header {
+      background: linear-gradient(135deg, #2d1b69 0%, #1a0f3d 100%);
+      border-radius: 16px;
+      padding: 20px 24px;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .header-title {
+      font-size: 26px;
+      font-weight: 800;
+      color: #fff;
+      letter-spacing: -0.5px;
+    }
+    .header-sub {
+      font-size: 13px;
+      color: #a78bfa;
+      margin-top: 4px;
+    }
+
+    /* ── MASCOT + BUBBLE ── */
+    .mascot-row {
+      display: flex;
+      gap: 16px;
+      align-items: stretch;
+      margin-bottom: 16px;
+    }
+    .mascot-box {
+      background: #1e1340;
+      border-radius: 14px;
+      padding: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 120px;
+      flex-shrink: 0;
+    }
+    .mascot-svg { width: 90px; height: 110px; }
+    .bubble-box {
+      background: #fff;
+      border-radius: 14px;
+      padding: 18px 20px;
+      flex: 1;
+      display: flex;
+      align-items: center;
+    }
+    .bubble-text {
+      font-size: 15px;
+      color: #1a1a2e;
+      line-height: 1.6;
+    }
+
+    /* ── DROPDOWNS ── */
+    .dropdown-wrap {
+      position: relative;
+      margin-bottom: 12px;
+    }
+    .dropdown-wrap select {
+      width: 100%;
+      padding: 16px 44px 16px 18px;
+      border-radius: 12px;
+      border: 1.5px solid #3d2a7a;
+      background: #fff;
+      color: #1a1a2e;
+      font-size: 15px;
+      appearance: none;
+      cursor: pointer;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+    .dropdown-wrap select:focus { border-color: #7c3aed; }
+    .dropdown-arrow {
+      position: absolute;
+      right: 16px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: #7c3aed;
+      font-size: 18px;
+      pointer-events: none;
+    }
+
+    /* ── CONTENT AREA ── */
+    .content-area {
+      display: none;
+      margin-top: 16px;
+      animation: fadeIn 0.3s ease;
+    }
+    .content-area.show { display: block; }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(8px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    /* ── STAGE HEADER ── */
+    .stage-header {
+      background: linear-gradient(135deg, #2d1b69, #1a0f3d);
+      border-radius: 14px;
+      padding: 18px 20px;
+      margin-bottom: 14px;
+    }
+    .stage-num {
+      font-size: 11px;
+      font-weight: 600;
+      color: #a78bfa;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-bottom: 4px;
+    }
+    .stage-title {
+      font-size: 19px;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 6px;
+    }
+    .stage-desc {
+      font-size: 13px;
+      color: #c4b5fd;
+      line-height: 1.5;
+    }
+
+    /* ── SQUIG NOTE ── */
+    .squig {
+      background: #1a2e1a;
+      border-left: 3px solid #4ade80;
+      border-radius: 0 10px 10px 0;
+      padding: 12px 14px;
+      margin-bottom: 14px;
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+    }
+    .squig-icon { font-size: 18px; flex-shrink: 0; }
+    .squig-text { font-size: 13px; color: #86efac; line-height: 1.5; }
+
+    /* ── REFLECT QUESTIONS ── */
+    .section-label {
+      font-size: 11px;
+      font-weight: 600;
+      color: #a78bfa;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+    .reflect-q {
+      background: #1e1340;
+      border-left: 3px solid #7c3aed;
+      border-radius: 0 8px 8px 0;
+      padding: 10px 14px;
+      font-size: 13px;
+      color: #ddd6fe;
+      line-height: 1.5;
+      margin-bottom: 7px;
+    }
+
+    /* ── RESOURCE CARDS ── */
+    .res-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 8px;
+      margin-bottom: 4px;
+    }
+    .res-card {
+      background: #1e1340;
+      border: 1px solid #3d2a7a;
+      border-radius: 10px;
+      padding: 12px;
+      cursor: pointer;
+      transition: border-color 0.15s, background 0.15s;
+      text-decoration: none;
+      display: block;
+    }
+    .res-card:hover {
+      border-color: #7c3aed;
+      background: #261852;
+    }
+    .res-icon { font-size: 20px; margin-bottom: 5px; }
+    .res-name {
+      font-size: 13px;
+      font-weight: 600;
+      color: #e9d5ff;
+      line-height: 1.3;
+    }
+    .res-desc {
+      font-size: 11px;
+      color: #a78bfa;
+      margin-top: 3px;
+      line-height: 1.4;
+    }
+
+    /* ── MYTHBUSTING ── */
+    .myth-label {
+      font-size: 11px;
+      font-weight: 600;
+      color: #fb923c;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin: 14px 0 8px;
+    }
+    .myth-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: #2a1a0a;
+      border: 1px solid #92400e;
+      border-radius: 20px;
+      padding: 6px 12px;
+      font-size: 12px;
+      color: #fdba74;
+      margin: 0 5px 6px 0;
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+    .myth-chip:hover { background: #3a2010; }
+    .myth-chip-x {
+      color: #f97316;
+      font-weight: 700;
+      font-size: 13px;
+    }
+    .myth-pop {
+      background: #1f1208;
+      border: 1px solid #92400e;
+      border-radius: 10px;
+      padding: 12px 14px;
+      margin-top: 6px;
+      font-size: 13px;
+      color: #fed7aa;
+      line-height: 1.6;
+      display: none;
+    }
+    .myth-pop.show { display: block; }
+    .myth-pop strong {
+      display: block;
+      color: #fb923c;
+      font-weight: 600;
+      margin-bottom: 3px;
+    }
+
+    /* ── FOOTER NAV ── */
+    .footer-nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 14px 0 0;
+      margin-top: 4px;
+      border-top: 1px solid #2d1b69;
+    }
+    .footer-home {
+      font-size: 13px;
+      color: #a78bfa;
+      font-weight: 600;
+      cursor: pointer;
+      text-decoration: underline;
+      background: none;
+      border: none;
+    }
+    .footer-brand { font-size: 13px; color: #a78bfa; font-weight: 600; }
+
+    /* ── BOTTOM BAR ── */
+    .bottom-bar {
+      background: linear-gradient(90deg, #1a0f3d, #2d1b69);
+      border-radius: 0 0 14px 14px;
+      padding: 12px 20px;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 16px;
+    }
+    .bottom-bar span {
+      font-size: 13px;
+      color: #c4b5fd;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    /* ── LOADING / ERROR ── */
+    .state-msg {
+      text-align: center;
+      padding: 2rem;
+      color: #a78bfa;
+      font-size: 14px;
+    }
+    /* ── Footer ──────────────────────────────────────────── */
+
+.footer {
+    background: #4D148C;
+    color: white;
+    margin-top: auto;
+    padding-top: 30px;
+    width: 100%;
+    flex-shrink: 0;
 }
+
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 0 20px 20px;
+}
+
+.footer-logo {
+    min-width: 200px;
+}
+
+.footer-logo img {
+    max-width: 250px;
+    width: 100%;
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.footer-links {
+    min-width: 140px;
+}
+
+.footer-contact {
+    min-width: 200px;
+}
+
+.footer-links h3,
+.footer-contact h3 {
+    margin-bottom: 15px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin-bottom: 8px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-contact p {
+    margin: 6px 0;
+}
+
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+
+/* ── Responsive breakpoints ──────────────────────────── */
+
+@media (max-width: 600px) {
+    .bot-section {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .bot-video {
+        width: 100%;
+    }
+
+    .speech-bubble {
+        min-width: unset;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 12px;
+    }
+
+    .header h1 {
+        font-size: 1.4rem;
+    }
+
+    .header p {
+        font-size: 0.9rem;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        gap: 20px;
+        padding: 0 16px 20px;
+    }
+
+    .footer-links,
+    .footer-contact,
+    .footer-logo {
+        min-width: unset;
+        width: 100%;
+    }
+}
+  </style>
+</head>
+<body>
+<div class="wrapper">
+
+  <!-- HEADER -->
+  <div class="header">
+    <div class="header-title" id="app-name">Compass</div>
+    <div class="header-sub" id="app-tagline">Your Sheffield Career Planning Guide</div>
+  </div>
+
+  <!-- MASCOT + BUBBLE -->
+  <div class="mascot-row">
+    <div class="mascot-box">
+      <svg class="mascot-svg" viewBox="0 0 90 110" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <rect x="20" y="55" width="50" height="42" rx="12" fill="#4c1d95"/>
+        <rect x="32" y="68" width="26" height="18" rx="4" fill="#6d28d9"/>
+        <text x="45" y="81" text-anchor="middle" font-size="7" fill="#c4b5fd" font-weight="700">Sheffield</text>
+        <rect x="4"  y="58" width="16" height="9" rx="5" fill="#4c1d95"/>
+        <rect x="70" y="58" width="16" height="9" rx="5" fill="#4c1d95"/>
+        <circle cx="76" cy="54" r="5" fill="#ddd6fe"/>
+        <circle cx="45" cy="35" r="24" fill="#ede9fe"/>
+        <line x1="45" y1="11" x2="45" y2="4" stroke="#7c3aed" stroke-width="2"/>
+        <circle cx="45" cy="3"  r="3"   fill="#c084fc"/>
+        <circle cx="37" cy="33" r="7"   fill="#1a1a2e"/>
+        <circle cx="53" cy="33" r="7"   fill="#1a1a2e"/>
+        <circle cx="39" cy="31" r="3"   fill="#a78bfa"/>
+        <circle cx="55" cy="31" r="3"   fill="#a78bfa"/>
+        <circle cx="40" cy="30" r="1.5" fill="#fff"/>
+        <circle cx="56" cy="30" r="1.5" fill="#fff"/>
+        <path d="M37 42 Q45 48 53 42" stroke="#7c3aed" stroke-width="2" fill="none" stroke-linecap="round"/>
+        <rect x="28" y="95" width="12" height="12" rx="4" fill="#3b0764"/>
+        <rect x="50" y="95" width="12" height="12" rx="4" fill="#3b0764"/>
+      </svg>
+    </div>
+    <div class="bubble-box">
+      <p class="bubble-text" id="bubble-msg">Loading…</p>
+    </div>
+  </div>
+
+  <!-- STAGE DROPDOWN -->
+  <div class="dropdown-wrap">
+    <select id="stage-select" onchange="onStageChange()" disabled>
+      <option value="">Select Stage</option>
+    </select>
+    <div class="dropdown-arrow">▾</div>
+  </div>
+
+  <!-- TOPIC DROPDOWN -->
+  <div class="dropdown-wrap" id="topic-wrap" style="display:none;">
+    <select id="topic-select" onchange="onTopicChange()">
+      <option value="">Select Focus Area</option>
+    </select>
+    <div class="dropdown-arrow">▾</div>
+  </div>
+
+  <!-- CONTENT AREA -->
+  <div class="content-area" id="content-area"></div>
+
+  <!-- BOTTOM BAR -->
+  <div class="bottom-bar">
+    <span onclick="resetAll()">🏠 Home</span>
+    <span id="footer-brand">Careers &amp; Employability Service</span>
+  </div>
+
+</div>
+
+<script>
+  let appData = null;
+  let activeStage = null;
+
+  /* ── Load data.json ── */
+  fetch('data.json')
+    .then(r => {
+      if (!r.ok) throw new Error('Could not load data.json');
+      return r.json();
+    })
+    .then(json => {
+      appData = json;
+      init();
+    })
+    .catch(err => {
+      document.getElementById('bubble-msg').innerHTML =
+        'Could not load content. Make sure <code>data.json</code> is in the same folder as this file.';
+      console.error(err);
+    });
+
+  /* ── Populate app shell from JSON ── */
+  function init() {
+    const { app, stages } = appData;
+
+    document.title                          = `${app.name} — ${app.tagline}`;
+    document.getElementById('app-name').textContent    = `${app.name}`;
+    document.getElementById('app-tagline').textContent = app.tagline;
+    document.getElementById('footer-brand').textContent = app.footer;
+    document.getElementById('bubble-msg').innerHTML    = app.defaultBubble;
+
+    const stageSel = document.getElementById('stage-select');
+    stages.forEach(s => {
+      const opt = document.createElement('option');
+      opt.value       = s.id;
+      opt.textContent = `${s.emoji} ${s.label}`;
+      stageSel.appendChild(opt);
+    });
+    stageSel.disabled = false;
+  }
+
+  /* ── Stage dropdown changed ── */
+  function onStageChange() {
+    const stageId = document.getElementById('stage-select').value;
+    clearContent();
+
+    if (!stageId) {
+      document.getElementById('topic-wrap').style.display = 'none';
+      document.getElementById('bubble-msg').innerHTML = appData.app.defaultBubble;
+      return;
+    }
+
+    activeStage = appData.stages.find(s => s.id === stageId);
+    document.getElementById('bubble-msg').innerHTML = activeStage.bubble;
+
+    const topicSel = document.getElementById('topic-select');
+    topicSel.innerHTML = '<option value="">Select Focus Area</option>';
+    activeStage.topics.forEach(t => {
+      const opt = document.createElement('option');
+      opt.value       = t.id;
+      opt.textContent = t.label;
+      topicSel.appendChild(opt);
+    });
+
+    document.getElementById('topic-wrap').style.display = 'block';
+  }
+
+  /* ── Topic dropdown changed ── */
+  function onTopicChange() {
+    const topicId = document.getElementById('topic-select').value;
+    clearContent();
+    if (!topicId || !activeStage) return;
+
+    const topic = activeStage.topics.find(t => t.id === topicId);
+    renderContent(topic);
+  }
+
+  /* ── Render a topic page ── */
+  function renderContent(topic) {
+    const squigParts = topic.squig.split(' ');
+    const squigIcon  = squigParts[0];
+    const squigText  = squigParts.slice(1).join(' ');
+
+    const reflectsHTML = topic.reflects
+      .map(q => `<div class="reflect-q">${q}</div>`)
+      .join('');
+
+    const resourcesHTML = topic.resources
+      .map(r => {
+        const href = r.url && r.url !== '#' ? `href="${r.url}" target="_blank" rel="noopener"` : '';
+        return `
+          <a class="res-card" ${href}>
+            <div class="res-icon">${r.icon}</div>
+            <div class="res-name">${r.name}</div>
+            <div class="res-desc">${r.desc}</div>
+          </a>`;
+      })
+      .join('');
+
+    let mythsHTML = '';
+    if (topic.myths && topic.myths.length) {
+      const chips = topic.myths
+        .map((m, i) => `
+          <button class="myth-chip" onclick="toggleMyth('myth_${i}')" aria-expanded="false" aria-controls="myth_${i}">
+            <span class="myth-chip-x" aria-hidden="true">✕</span> ${m.chip}
+          </button>`)
+        .join('');
+      const pops = topic.myths
+        .map((m, i) => `
+          <div class="myth-pop" id="myth_${i}" role="region">
+            <strong>Busted.</strong> ${m.bust}
+          </div>`)
+        .join('');
+      mythsHTML = `
+        <div class="myth-label">Mythbusting</div>
+        <div>${chips}</div>
+        ${pops}`;
+    }
+
+    document.getElementById('content-area').innerHTML = `
+      <div class="stage-header">
+        <div class="stage-num">${topic.stageNum}</div>
+        <div class="stage-title">${topic.title}</div>
+        <div class="stage-desc">${topic.desc}</div>
+      </div>
+
+      <div class="squig">
+        <span class="squig-icon">${squigIcon}</span>
+        <span class="squig-text">${squigText}</span>
+      </div>
+
+      <div class="section-label">Questions to reflect on</div>
+      ${reflectsHTML}
+
+      <div class="section-label" style="margin-top:14px;">Resources to explore</div>
+      <div class="res-grid">${resourcesHTML}</div>
+
+      ${mythsHTML}
+
+      <div class="footer-nav">
+        <button class="footer-home" onclick="resetAll()">Home</button>
+        <span class="footer-brand">${appData.app.footer}</span>
+      </div>
+    `;
+
+    document.getElementById('content-area').classList.add('show');
+  }
+
+  /* ── Toggle myth busting pop ── */
+  function toggleMyth(id) {
+    const el  = document.getElementById(id);
+    const btn = el.previousElementSibling
+      ? null
+      : document.querySelector(`[aria-controls="${id}"]`);
+    el.classList.toggle('show');
+    if (btn) btn.setAttribute('aria-expanded', el.classList.contains('show'));
+  }
+
+  /* ── Reset everything ── */
+  function resetAll() {
+    document.getElementById('stage-select').value = '';
+    document.getElementById('topic-wrap').style.display = 'none';
+    clearContent();
+    document.getElementById('bubble-msg').innerHTML = appData.app.defaultBubble;
+    activeStage = null;
+  }
+
+  /* ── Clear content area ── */
+  function clearContent() {
+    const ca = document.getElementById('content-area');
+    ca.classList.remove('show');
+    ca.innerHTML = '';
+  }
+  </script>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-logo">
+        <img src="Careers and Employability logo.png" alt="University of Sheffield Careers and Employability">
+      </div>
+
+      <div class="footer-links">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="https://sheffield.ac.uk/careers">Home</a></li>
+          <li><a href="https://sheffield.ac.uk/careers/support/services/appointments">Appointments</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-contact">
+        <h3>Contact</h3>
+        <p>Careers & Employability Service</p>
+        <p>University of Sheffield</p>
+        <p>Email: careers@sheffield.ac.uk</p>
+        <p>Phone: +44 (0)114 222 0900</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 University of Sheffield. All Rights Reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
