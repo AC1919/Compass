@@ -7,16 +7,23 @@
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
 
+    html, body {
+      height: 100%;
+    }
+
     body {
       background: #0f0a1e;
       font-family: 'Segoe UI', Arial, sans-serif;
       min-height: 100vh;
+      display: flex;
+      flex-direction: column;
     }
 
     .wrapper {
       max-width: 520px;
       margin: 0 auto;
       padding: 12px;
+      width: 100%;
     }
 
     /* ── HEADER ── */
@@ -307,8 +314,10 @@
 .footer {
     background: #4D148C;
     color: white;
-    margin-top: 50px;
+    margin-top: auto;
     padding-top: 30px;
+    width: 100%;
+    flex-shrink: 0;
 }
 
 .footer-container {
