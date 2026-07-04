@@ -134,11 +134,4 @@ Your edit is now live (or awaiting review, depending on the option chosen).
 
 ---
 
-## 9. If something breaks
 
-If the Compass tool stops loading after an edit, it's almost always a **missing comma, quotation mark, or bracket**. GitHub has a free built-in checker:
-
-1. Before committing, click the **"Preview"** tab (if available) or use a free online tool like [jsonlint.com](https://jsonlint.com) — paste your file content in and it will tell you exactly which line has the error.
-2. Fix the line it points to, then try again.
-
-If you're stuck, it's safer to **undo your change and ask for help** than to guess-fix — go to the file's history (the "History" button on the file page) and revert to the last working version.
